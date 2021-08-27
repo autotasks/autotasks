@@ -10,6 +10,14 @@ body {
     padding-left: 0.4rem;
 }
 
+#meet {
+    font-size: 2rem;
+}
+
+#AutoTasks {
+    font-size: 3rem;
+}
+
 .wrapper {
     position: absolute;
     top: 50%;
@@ -41,11 +49,5 @@ body {
     }
     100% {
         background-position: 0 100%;
-    }
-}
-
-@media only screen and (min-width: 345px) and (orientation: portrait) {
-    .header {
-        font-size: 1.2rem;
     }
 }
