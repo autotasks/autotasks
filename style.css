@@ -1,5 +1,6 @@
 body {
     background-image: url('media/test-bg1.jpg');
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
@@ -15,18 +16,18 @@ body {
 }
 
 #meet {
-    font-size: 4rem;
+    font-size: 3.2rem;
     margin-bottom: 0.5rem;
 }
 
 #AutoTasks {
-    font-size: 8rem;
+    font-size: 7rem;
 }
 
 .wrapper {
     position: absolute;
-    top: 55%;
-    left: 50%;
+    top: 5%;
+    left: 5%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
@@ -35,10 +36,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     line-height: 1;
-    font-size: 1.6rem;
+    font-size: 3rem;
     color: transparent;
     text-transform: uppercase;
-    background-image: linear-gradient(to left, #ffee02, #ff09a1, #59b65e, #ffffff);
+    background-image: linear-gradient(to left, #ffee02, #ff09a1, #59b65e, #e5ff00);
     -webkit-background-clip: text;
     animation: animate 5s linear infinite;
     -webkit-background-size: 500%;
@@ -51,14 +52,75 @@ body {
     
 }
 #download {
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1.7rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.04rem;
     color: rgb(120, 69, 224);
     padding: 0.5rem;
     border-radius: 8px;
     border-color: whitesmoke;
 }
+
+.tarshim-zrima {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 1.36rem;
+    margin-bottom: 4%;
+}
+
+.tarshim-box {
+    display: flex;
+    margin-top: 2%;
+    flex-flow: row no-wrap;
+    justify-content: space-evenly;
+
+}
+
+.all-one {
+    border: 7px solid white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.first, .second {
+    box-sizing: border-box;
+    padding: 0px 4rem 10rem 4rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.first {
+    justify-content: space-evenly;
+}
+
+.first h2, .second h2 {
+    font-size: 2.3rem;
+}
+
+.first img {
+    margin-top: 4%;
+}
+
+.second img {
+    margin-top: 1.7%;
+}
+
+p {
+    margin: 0% 5% 5% 5%;
+    position: relative;
+    top: -25%;
+    font-size: 104%;
+}
+
+strike {
+    font-size: 2rem;
+}
+
 
 @keyframes animate {
     0% {
